@@ -48,23 +48,102 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
-            <div className="work-box" key={index}>
-              <div className="work-info">
-                <div className="work-title">
-                  <h3>0{index + 1}</h3>
-
-                  <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
-                  </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>01</h3>
+                <div>
+                  <h4>E-Commerce Platform</h4>
+                  <p>Full Stack Web App</p>
                 </div>
-                <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <h4>Tools and features</h4>
+              <p>React, Node.js, Express, MongoDB, Stripe</p>
             </div>
-          ))}
+            <WorkImage
+              image="/images/placeholder.webp"
+              alt="E-Commerce Platform"
+            />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>02</h3>
+                <div>
+                  <h4>Task Management App</h4>
+                  <p>MERN Stack Application</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>React, Redux, Node.js, Express, MongoDB</p>
+            </div>
+            <WorkImage
+              image="/images/placeholder.webp"
+              alt="Task Management App"
+            />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>03</h3>
+                <div>
+                  <h4>Social Media Dashboard</h4>
+                  <p>React Dashboard</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>React, Chart.js, REST APIs, Material-UI</p>
+            </div>
+            <WorkImage
+              image="/images/placeholder.webp"
+              alt="Social Media Dashboard"
+            />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>04</h3>
+                <div>
+                  <h4>Portfolio Website</h4>
+                  <p>3D Interactive Portfolio</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>React, Three.js, GSAP, TypeScript</p>
+            </div>
+            <WorkImage
+              image="/images/placeholder.webp"
+              alt="Portfolio Website"
+            />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>05</h3>
+                <div>
+                  <h4>Weather App</h4>
+                  <p>React Weather Application</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>React, OpenWeather API, CSS3</p>
+            </div>
+            <WorkImage image="/images/placeholder.webp" alt="Weather App" />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>06</h3>
+                <div>
+                  <h4>Blog Platform</h4>
+                  <p>Full Stack Blog</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>Next.js, MongoDB, Markdown, Authentication</p>
+            </div>
+            <WorkImage image="/images/placeholder.webp" alt="Blog Platform" />
+          </div>
         </div>
       </div>
     </div>
